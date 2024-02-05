@@ -1,0 +1,3 @@
+Esto es un fichero de texto.
+Contiene unas tonterías que acabo de escribir.
+Nada más.
