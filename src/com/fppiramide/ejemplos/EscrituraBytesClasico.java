@@ -24,9 +24,9 @@ public class EscrituraBytesClasico {
         }catch (IOException e){
             System.out.println("No se ha podido escribir en el fichero");
         }finally {
+
             if(fos!=null)
             try {
-
                 fos.close();
             } catch (IOException e) {
                 System.out.println("Problemas con el cierre del fichero");;
