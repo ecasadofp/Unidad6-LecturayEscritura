@@ -9,7 +9,7 @@ import java.io.IOException;
 public class LecturaCaracteres {
     public static void main(String[] args) {
 
-        try(FileReader fr = new FileReader("texto.txt")){
+        try(FileReader fr = new FileReader("src/com/fppiramide/recursos/texto.txt")){
             int leido;
             while((leido=fr.read())!=-1)
                 System.out.print((char) leido);

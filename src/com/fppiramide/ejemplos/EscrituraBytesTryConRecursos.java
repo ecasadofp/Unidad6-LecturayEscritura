@@ -11,9 +11,9 @@ public class EscrituraBytesTryConRecursos {
 
     public static void main(String[] args) {
 
-        try(FileOutputStream fos = new FileOutputStream("datos.dat")) {
+        try(FileOutputStream fos = new FileOutputStream("src/com/fppiramide/recursos/datos.dat")) {
 
-            fos.write(67);
+            fos.write(65);
 
         }catch (FileNotFoundException f){
             System.out.println("No he encontrado el fichero");

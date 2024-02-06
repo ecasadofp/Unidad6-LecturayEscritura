@@ -13,7 +13,7 @@ public class EscrituraBytesClasico {
 
         try {
 
-            fos = new FileOutputStream("datos.dat");
+            fos = new FileOutputStream("src/com/fppiramide/recursos/datos.dat");
 
             fos.write(66);
 
